@@ -28,9 +28,7 @@ const setupRoutes = (app) => {
 
   app.post("/register", async (req, res) => {
     const { username, email, password } = req.body;
-
     const user = await UserModel.findOne({ email });
-
     if (!user) {
       const newUser = new UserModel({
         username,
@@ -47,9 +45,7 @@ const setupRoutes = (app) => {
 
   app.post("/login", async (req, res) => {
     const { email, password } = req.body;
-
     const user = await UserModel.findOne({ email });
-
     if (!user) {
       res.send("User NOT Found!!!");
     } else {

@@ -12,8 +12,6 @@ const start = async () => {
 
     console.log("Connected to the Database");
 
-    /////////////////////
-
     const app = express();
 
     app.use(express.json());
