@@ -1,114 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Oxygen', sans-serif;
-    list-style: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oxygen", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 .input {
-    width: 120px;
-    padding: 10px;
-    background-color: rgb(66, 170, 255);
-    color: white;
-    font-weight: 700;
-    font-size: large;
-    border: none;
-    border-radius: 6px;
+  width: 120px;
+  padding: 10px;
+  background-color: rgb(66, 170, 255);
+  color: white;
+  font-weight: 700;
+  font-size: large;
+  border: none;
+  border-radius: 6px;
 }
 
 .loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgb(213, 235, 255);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 600px;
+  border-radius: 20px;
+  form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    background-color: rgb(213, 235, 255);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 700px;
-    height: 600px;
-    border-radius: 20px;
-    form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 55%;
-        margin-bottom: 20px;
+    width: 55%;
+    margin-bottom: 20px;
+  }
+  h1 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 700;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 380px;
+    label {
+      margin-bottom: 5px;
     }
-    h1 {
-        margin-bottom: 40px;
-        text-align: center;
-        font-weight: 700;
+    input {
+      padding: 7px;
     }
-    div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 20px;
-        width: 380px;
-        label {
-            margin-bottom: 5px;
-            
-        }
-        input {
-            padding: 7px;
-        }
-    }
+  }
 }
 .registerForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: aliceblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 600px;
+  border-radius: 20px;
+  form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    background-color: aliceblue;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 700px;
-    height: 600px;
-    border-radius: 20px;
-    form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 55%;
-        margin-bottom: 20px;
-        button {
-            width: 40%;
-            padding: 10px;
-            background-color: rgb(66, 170, 255);
-            color: white;
-            font-weight: 700;
-            font-size: large;
-            border: none;
-            border-radius: 6px;
-        }
+    width: 55%;
+    margin-bottom: 20px;
+    button {
+      width: 40%;
+      padding: 10px;
+      background-color: rgb(66, 170, 255);
+      color: white;
+      font-weight: 700;
+      font-size: large;
+      border: none;
+      border-radius: 6px;
     }
-    h1 {
-        margin-bottom: 40px;
-        text-align: center;
-        font-weight: 700;
+  }
+  h1 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 700;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 380px;
+    label {
+      margin-bottom: 5px;
     }
-    div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 20px;
-        width: 380px;
-        label {
-            margin-bottom: 5px;
-            
-        }
-        input {
-            padding: 7px;
-        }
+    input {
+      padding: 7px;
     }
+  }
 }
